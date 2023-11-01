@@ -1,5 +1,5 @@
 #region import bailam_f
-from s00_bailam import hi as bailam_f
+from s00_bailam import tongtienmuahang as bailam_f
 #endregion import bailam_f
 
 
@@ -8,10 +8,9 @@ from s02_chambai import chambai
 
 #region testkey_list
 testcase_list = [
-  {'input': {'name':'AI BTX'}, 'output':'Hi AI BTX',   'tc_name': 'tc0' },
-  {'input': ['HSU'],           'output':'Hi',          'tc_name': 'tc1' },
-  {'input': [None],            'output':'Hi',          'tc_name': 'tc2' },
-  {'input': [''],              'output':'Hi AI BTX',   'tc_name': 'tc3' },
+  {'tc_name': 'tc1', 'input': [1000000],                  'output':None},
+  {'tc_name': 'tc0', 'input': {'gia_truoc_thue':1000000}, 'output':1100000},
+  {'tc_name': 'tc1', 'input': [None],                     'output':None},
 ]
 #endregion testkey_list
 

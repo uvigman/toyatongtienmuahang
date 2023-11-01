@@ -1,39 +1,39 @@
 #region debai
 """
 --- ma debai / id
-hi(name)
+tongtienmuahang(gia_truoc_thue)
 
 --- nopbai
 00 fork tu bainopmau tren replit tu trang web duoiday 
-   https://replit.com/@NamG1/TODO
+   https://replit.com/@NamG1/toya03tongtienmuahang
 
 01 lam bai vao tep s00_bailam.py, chay Run de co ketqua tatca la 1
 02a tao github repo, mo trinhduyetweb de kiemtra tep s00_bailam.py, va lay diachi/url aka githubbailamurl
 
 02b dán diachi githubbailamurl theo mẫu ở trang web duoiday
-    https://forms.gle/TODO
+    https://forms.gle/ruveoDbhxesSKBu77
 
 --- debai / problem
-Viet ham
-def hi(name):
-  # tra ve cau chao 'Hi {name}!'
+Viết hàm 
+  tongtienmuahang(gia_truoc_thue) 
+tính tổng tiền sau thuế khi mua hàng với giá tiền :gia_truoc_thue
+Tiền thuế = 10% tổng tiền
+Kết quả số nguyên / int
 
-Khi chạy với đầuvào / input            | Kếtquả đẩura / output  | Thứtự mẫuthử 
--------------------------------------- | ---------------------- | -----------
-hi('AI-BTX')                           | Hi AI-BTX!
-hi('HSU')                              | Hi HSU!
-hi(None)                               | Hi!
-hi('')                                 | Hi!
+--- vidu mau / testcase
+Khi chay voi input                      | Ketqua output
+--------------------------------------- | -----------------
+tongtienmuahang(1000000)                | 1100000
+tongtienmuahang(gia_truoc_thue=1000000) | 1100000
+tongtienmuahang(None)                   | None
 """
 #endregion debai
 
 #region bailam
-def hi(name):
-  return 'TODO'
+def tongtienmuahang(gia_truoc_thue):
+  return 'todo'
+  
 
 if __name__=='__main__':
-  print( hi(name='AI-BTX') )
-  print( hi('HSU') )
-  print( hi(None) )
-  print( hi('') )
+  pass
 #endregion bailam
