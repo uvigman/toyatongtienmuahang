@@ -8,7 +8,7 @@ from s02_chambai import chambai
 
 #region testkey_list
 testcase_list = [
-  {'tc_name': 'tc1', 'input': [1000000],                  'output':None},
+  {'tc_name': 'tc1', 'input': [1000000],                  'output':1100000},
   {'tc_name': 'tc0', 'input': {'gia_truoc_thue':1000000}, 'output':1100000},
   {'tc_name': 'tc1', 'input': [None],                     'output':None},
 ]
