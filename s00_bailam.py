@@ -31,7 +31,7 @@ tongtienmuahang(None)                   | None
 
 #region bailam
 def tongtienmuahang(gia_truoc_thue):
-  return 'todo'
+  return 'todo nn'
 
 
 if __name__=='__main__':
