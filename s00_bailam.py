@@ -11,7 +11,7 @@ tongtienmuahang(gia_truoc_thue)
 02a tao github repo, mo trinhduyetweb de kiemtra tep s00_bailam.py, va lay diachi/url aka githubbailamurl
 
 02b dán diachi githubbailamurl theo mẫu ở trang web duoiday
-    https://forms.gle/ruveoDbhxesSKBu77
+    https://forms.gle/vHWAaYjfGqNK3bSd8
 
 --- debai / problem
 Viết hàm 
